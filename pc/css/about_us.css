@@ -1,0 +1,20 @@
+.menu{
+    width: 555px;
+    margin: 0 auto;
+}
+.content{
+    width: 1200px;
+    margin: 40px auto 60px;
+}
+.content img{
+    display: block;
+    float: left;
+    padding-right: 10px;
+}
+.content p{
+    font-size: 18px;
+    color: #3b3232;
+    line-height: 30px;
+    text-indent: 36px;
+    text-align: justify;
+}

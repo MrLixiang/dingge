@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    outline: none;
+    text-decoration: none;
+}
+body{
+    font-family: "微软雅黑";
+    width: 100%;
+    height: auto;
+    min-width: 1440px;
+    overflow-x: hidden;
+}
+.wrap{
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+input{
+    border: none;
+    outline: none;
+    background: none;
+}
+textarea{
+    border: none;
+    outline: none;
+    resize: none;
+    font-family: "微软雅黑";
+}
+img{
+    border: none;
+    display: block;
+}
+.clearfix:after{
+    content: " ";
+    width: 0;
+    height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+.nav-top{
+    width: 1200px;
+    height: 106px;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+.logo img{
+    width: 450px;
+    height: auto;
+    float: left;
+}
+.js {
+    width: 90%;
+    margin: 10px auto 0 auto;
+}
+
+.js p {
+    padding: 5px 0;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.js p span {
+    float: right;
+}
+
+.js p span a {
+    color: #f00;
+    text-decoration: underline;
+}
+
+.js textarea {
+    height: 100px;
+    width: 98%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-top: 2px solid #aaa;
+    border-left: 2px solid #aaa;
+}
+
+/* 本例子css */
+.focusBox {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.focusBox .pic li, .focusBox .pic li a, .focusBox .pic {
+    width: 100%;
+    height: auto;
+}
+
+.focusBox .pic img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.focusBox .hd {
+    overflow: hidden;
+    zoom: 1;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    z-index: 3
+}
+
+.focusBox .hd li {
+    float: left;
+    line-height: 15px;
+    text-align: center;
+    font-size: 12px;
+    width: 25px;
+    height: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    background: #919191;
+    margin-left: 4px;
+    filter: alpha(opacity=80);
+    opacity: .8;
+    -webkit-transition: All .5s ease;
+    -moz-transition: All .5s ease;
+    -o-transition: All .5s ease
+}
+
+.focusBox .hd .on {
+    background: #fff;
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.focusBox .prev,
+.focusBox .next {
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    top: 50%;
+    margin-top: -34px;
+    z-index: 3;
+}
+
+.focusBox .prev {
+    background: url("../img/btn55.png") no-repeat;
+    left: 20%;
+}
+
+.focusBox .next {
+    background: url("../img/btn99.png") no-repeat;
+    right:20%;
+}
+
+.focusBox .prev:hover{
+    background: url("../img/btn999.png") no-repeat;
+}
+.focusBox .next:hover {
+    background: url("../img/btn555.png") no-repeat;
+}
+.nav-top div{
+    width: 407px;
+    height: 95px;
+    float: right;
+    padding-top: 8px;
+}
+.nav-top div p{
+    width: 156px;
+    height: 50px;
+    float: left;
+    margin-right: 15px;
+    background: url("../img/phone.png") no-repeat 0 5px;
+
+}
+.nav-top div p span{
+    display: block;
+    text-align: right;
+    font-size: 16px;
+    color: #aeaeae;
+    line-height: 22px;
+}
+.nav-top div ul{
+    width: 225px;
+    height: 39px;
+    float: right;
+}
+.nav-top div ul li{
+    width: 39px;
+    height: 39px;
+    float: left;
+    margin-left: 22px;
+}
+.nav-top div ul li:first-child{
+    margin-left: 0;
+}
+.nav-top div form{
+    width: 225px;
+    height: 30px\9;
+    height: 30px;
+    line-height: 30px\9;
+    line-height: 30px;
+    border: 2px solid #c12b2b;
+    float: right;
+    border-radius: 10px;
+    margin-top: 18px;
+    background-color: #c12b2b;
+    behavior: url(ie-css3.htc);
+    position: relative;
+    z-index: 333;
+    overflow: hidden;
+}
+.nav-top div form .search-bar{
+    width: 173px;
+    height: 30px;
+    height: 30px\9;
+    overflow: hidden;
+    line-height: 30px\9;
+    line-height: 30px;
+    behavior: url(ie-css3.htc);
+    border-radius: 8px 0 0 8px;
+    float: left;
+    text-indent: 8px;
+    background-color: #fff;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    color: #616060;
+}
+.nav-top div form .button{
+    background: url("../img/sear-bg.png") no-repeat center;
+    display: block;
+    width: 46px;
+    height: 30px;
+    float: right;
+    position: relative;
+    z-index: 23;
+    cursor: pointer;
+}
+/*.button input{
+    width: 23px;
+    height: 18px;
+    background: url("../img/btn.png") no-repeat;
+    position: relative;
+    z-index: 333;
+}*/
+.nav{
+    width: 100%;
+    height: 74px;
+    background: #c12b2b;
+}
+.nav-list{
+    width: 1160px;
+    height: 100%;
+    margin: 0 auto;
+    padding-left: 40px;
+}
+.nav-list li{
+    float: left;
+    width: 161px;
+    height: 56px;
+    text-align: center;
+    margin: 9px 65px 0 0;
+    line-height: 56px;
+
+}
+.nav-list li a{
+    display: block;
+    color: #faf9f9;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+}
+.nav-list .on{
+    background: #fff;
+    border-radius: 10px;
+    behavior: url(ie-css3.htc);
+    position: relative;
+    z-index: 333;
+}
+.nav-list li:hover{
+    background: url("../img/ba08.png") no-repeat;
+}
+
+.nav-list .on a{
+    color: #c12b2b;
+}
+.nav-list li:hover a{
+    color: #c12b2b;
+}
+.banner{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: auto;
+    background: #362e2b;
+}
+.footer-main{
+    width: 1000px;
+    height: 282px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.footer-main dl{
+    float: left;
+    margin-left: 100px;
+}
+.footer-main dl:first-child{
+    margin-left: 0;
+}
+.footer-main dl dt{
+    color: #fdfdfd;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.footer-main dl dd{
+    line-height: 36px;
+}
+.footer-main dl dd a{
+    color: #fdf9f9;
+    font-size: 18px;
+}
+.footer-main p{
+    float: right;
+    margin-right: 30px;
+}
+.footer-main p span{
+    display: block;
+    color: #fdfdfd;
+    margin-bottom: 14px;
+    font-size: 24px;
+    text-align: center;
+}
+.copyright{
+    width: 100%;
+    height: 53px;
+    background: #c12b2b;
+    text-align: center;
+    font-size: 22px;
+    color: #fdfdfd;
+    line-height: 53px;
+}
+
+
+
+
+
+

@@ -1,0 +1,187 @@
+/* 效果CSS开始 */
+.product .mod18 {
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.product .mod18 .btn {
+    position: absolute;
+    cursor: pointer;
+    z-index: 99;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.product .mod18 .prev {
+    left: 0;
+    background: url(../img/prev.png) no-repeat;
+}
+.product .mod18 .prev:hover{
+    background: url(../img/prev_h.png) no-repeat;
+}
+/*.mod18 #prevTop, .mod18 #nextTop {
+    top: 250px;
+    width: 41px;
+    height: 182px;
+}*/
+
+.product .mod18 #prev, .mod18 #next {
+    top: 79%;
+    width: 41px;
+    height: 182px;
+}
+
+/*.mod18 #prevTop {
+
+    left: -60px;
+    background: url(../images/btn01.png) 0 0 no-repeat;
+}
+
+.mod18 #nextTop {
+    right: -90px;
+    background: url(../images/btn02.png) 0 0 no-repeat;
+}*/
+
+.product .mod18 .next {
+    right: 0;
+    background: url(../img/next.png) no-repeat;
+}
+.product .mod18 .next:hover{
+    background: url(../img/next_h.png) no-repeat;
+}
+
+.product .mod18 li {
+    float: left;
+}
+
+.product .mod18 .cf li {
+    position: relative;
+    color: #fff;
+}
+
+.product .mod18 .picBoxUl i {
+    display: block;
+    width: 1160px;
+    height: 572px;
+    margin: 0 auto;
+    border: 5px solid #942626;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.product .mod18 .cf li span {
+    display: block;
+    width: 1160px;
+    position: absolute;
+    left: 75px;
+    bottom: 0;
+    padding: 10px 20px;
+    line-height: 22px;
+    text-align: left;
+    background: rgba(0, 0, 0, 0.6);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr="#60000000", endColorstr="#60000000");
+}
+/*.mod18 .cf li a{
+    border: 1px solid #f00;
+}*/
+.product .mod18 .picBox {
+    width: 1200px;
+    height: 591px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding-top: 25px;
+}
+
+.product .mod18 .picBox ul {
+    height: 591px;
+    position: absolute;
+    left: 0;
+}
+
+.product .mod18 .picBox li {
+    width: 1200px;
+    height: 591px;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+.product .mod18 .picBox li i img{
+    width: 100%;
+    height: 572px;
+}
+
+.product .mod18 .listBox {
+    height: 180px;
+    padding: 0 57px;
+    margin: 55px auto 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.product .mod18 .listBox ul {
+    margin: 0 auto;
+    height: 180px;
+    position: absolute;
+    padding-left: 12px;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.product .mod18 .listBox li {
+    width: 147px;
+    height: 180px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 30px;
+    float: left;
+    overflow: hidden;
+    display: inline;
+}
+.product .mod18 .listBox li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.product .mod18 .listBox li a img{
+    width: 145px;
+    height: 144px;
+}
+.product .mod18 .listBox li a span{
+    width: 147px;
+    height: 34px;
+    display: block;
+    background: #da7f7f;
+    font-size: 18px;
+    color: #fffdfd;
+    padding:0;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    line-height: 34px;
+    left: 0;
+}
+.product .mod18 .listBox ul li:hover a span{
+    background: #c22f2f;
+}
+.product .mod18 .listBox li:first-child{
+    margin-left: 0;
+}
+
+.product .mod18 .listBox li i {
+    display: none;
+}
+
+.product .mod18 .listBox li a {
+    display: block;
+    width: 145px;
+    height: 180px;
+}
+
+.product .mod18 .listBox a img {
+    border: 1px solid #da7f7f;
+}
+.product .mod18 .listBox ul li:hover a img {
+    border: 1px solid #c12b2b;
+}

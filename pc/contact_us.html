@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>联系我们</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/title_public.css">
+    <link rel="stylesheet" href="css/contact_us.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=Voo9csbU3M9gFsSLoZyBqzWZVLXrkEok
+"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/focus.js"></script>
+    <script type="text/javascript" src="js/jquery1.42.min.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
+
+</head>
+<body>
+<div class="wrap">
+    <div class="header">
+        <div class="nav-top clearfix">
+            <a class="logo" href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-t-right clearfix">
+                <p class="phone">
+                    <span>028-6502 3663</span>
+                    <span>180 1131 9030</span>
+                </p>
+                <ul class="weather clearfix">
+                    <li><a href="#"><img src="img/ba.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/ba01.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/ba02.png" alt=""></a></li>
+                    <li class="on"><a href="#"><img src="img/ba03.png" alt=""></a></li>
+                </ul>
+                <form class="search-box clearfix">
+                    <input id="searchBar" class="search-bar" type="text" value="搜索···">
+                    <input class="button" type="button">
+                </form>
+            </div>
+        </div>
+        <div class="nav">
+            <ul class="nav-list clearfix">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="about_us.html">公司介绍</a></li>
+                <li><a href="products.html">产品中心</a></li>
+                <li><a href="news.html">新闻中心</a></li>
+                <li class="on"><a href="contact_us.html">联系我们</a></li>
+            </ul>
+        </div>
+        <div class="focusBox" style="margin:0 auto">
+            <ul class="pic">
+                <li><a href="#" target="_blank"><img src="img/banner.png"/></a></li>
+                <li><a href="#" target="_blank"><img src="img/banner1.png"/></a></li>
+                <li><a href="#" target="_blank"><img src="img/banner2.png"/></a></li>
+            </ul>
+            <a class="prev" href="javascript:void(0)"></a>
+            <a class="next" href="javascript:void(0)"></a>
+        </div>
+        <script type="text/javascript">
+            jQuery(".focusBox").slide({ mainCell:".pic",effect:"left", autoPlay:true, delayTime:300});
+        </script>
+    </div>
+    <div class="title">
+        <h4>
+            联系我们
+        </h4>
+        <p>
+            <span>您当前位置</span><span><a href="index.html">首页</a></span><span class="on"><a href="contact_us.html">联系我们</a></span>
+        </p>
+    </div>
+    <div class="main">
+       <div class="main-top clearfix">
+           <div class="msg">
+               <h4>鼎格舒适家是知名暖通公司</h4>
+               <p>邮编：72500</p>
+               <p>电话：0915-5000000</p>
+               <p>手机号码：18866666666</p>
+               <p>邮箱地址：88888888@qq.com</p>
+               <p>地点：xx省xx市xx区xxx号</p>
+           </div>
+           <form class="form clearfix">
+               <p>联系姓名：<input type="text"></p>
+               <p>联系电话：<input type="text"></p>
+               <p>合作意向：<input type="text"></p>
+               <span>留言：</span><textarea></textarea>
+               <p class="code clearfix">
+                   <input type="text">
+                   <span></span>
+               </p>
+               <input class="submit" type="submit" value="提交">
+           </form>
+       </div>
+        <div class="map_box">
+            <h5>我们的地址</h5>
+            <div id="map" class="map">
+                <script src="js/map.js"></script>
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+    <div class="footer">
+        <div class="footer-main clearfix">
+            <dl>
+                <dt>关于我们</dt>
+                <dd><a href="about_us.html">公司简介</a></dd>
+                <dd><a href="about_us.html">企业文化</a></dd>
+                <dd><a href="about_us.html">企业荣誉</a></dd>
+                <dd><a href="about_us.html">资格认证</a></dd>
+                <dd><a href="about_us.html">研发生产</a></dd>
+            </dl>
+            <dl>
+                <dt>产品中心</dt>
+                <dd><a href="products_details.html">地暖</a></dd>
+                <dd><a href="products_details.html">暖气片</a></dd>
+                <dd><a href="products_details.html">中央空调</a></dd>
+                <dd><a href="products_details.html">净水系统</a></dd>
+                <dd><a href="products_details.html">其他产品</a></dd>
+            </dl>
+            <dl>
+                <dt>新闻中心</dt>
+                <dd><a href="news_details.html">最新动态</a></dd>
+                <dd><a href="news_details.html">企业新闻</a></dd>
+                <dd><a href="news_details.html">行业新闻</a></dd>
+                <dd><a href="news_details.html">热点聚焦</a></dd>
+            </dl>
+            <dl>
+                <dt>联系我们</dt>
+                <dd><a href="#">在线留言</a></dd>
+                <dd><a href="#">网上咨询</a></dd>
+            </dl>
+            <p>
+                <span><img src="img/erweima.png" alt=""></span>
+                <span>扫一扫</span>
+            </p>
+        </div>
+        <p class="copyright">copyright © www.chenrunhong.com版权所有 备案号：123123123</p>
+    </div>
+</div>
+</body>
+</html>

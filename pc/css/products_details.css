@@ -1,0 +1,35 @@
+.menu{
+    width: 695px;
+    margin: 0 auto;
+}
+.main h4{
+    font-size: 24px;
+    color: #6f6a6a;
+    margin-top: 65px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.main p{
+    font-size: 14px;
+    color: #6f6a6a;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.main  img{
+    width: 757px;
+    height: 570px;
+    margin: 0 auto;
+}
+.pro-info{
+    width: 1020px;
+    margin: 40px auto 85px;
+    padding-left: 90px;
+}
+.pro-info li{
+    float: left;
+    width: 230px;
+    font-size: 18px;
+    color: #6f6a6a;
+    margin: 0 110px 35px 0;
+}
