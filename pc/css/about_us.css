@@ -2,8 +2,12 @@
     width: 555px;
     margin: 0 auto;
 }
+.menu-list .on{
+    display: block;
+}
 .content{
     width: 1200px;
+    display: none;
     margin: 40px auto 60px;
 }
 .content img{
@@ -11,6 +15,11 @@
     float: left;
     padding-right: 10px;
 }
+.content:nth-child(even) img{
+     float: right;
+     padding-left: 10px;
+     padding-right: 0;
+ }
 .content p{
     font-size: 18px;
     color: #3b3232;

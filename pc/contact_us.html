@@ -6,13 +6,7 @@
     <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/title_public.css">
     <link rel="stylesheet" href="css/contact_us.css">
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=Voo9csbU3M9gFsSLoZyBqzWZVLXrkEok
-"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/focus.js"></script>
-    <script type="text/javascript" src="js/jquery1.42.min.js"></script>
-    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
-
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=Voo9csbU3M9gFsSLoZyBqzWZVLXrkEok"></script>
 </head>
 <body>
 <div class="wrap">
@@ -54,9 +48,6 @@
             <a class="prev" href="javascript:void(0)"></a>
             <a class="next" href="javascript:void(0)"></a>
         </div>
-        <script type="text/javascript">
-            jQuery(".focusBox").slide({ mainCell:".pic",effect:"left", autoPlay:true, delayTime:300});
-        </script>
     </div>
     <div class="title">
         <h4>
@@ -139,5 +130,12 @@
         <p class="copyright">copyright © www.chenrunhong.com版权所有 备案号：123123123</p>
     </div>
 </div>
+<script src="js/jquery.min.js"></script>
+<script src="js/focus.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
+<script src="js/jqueryPhoto.js"></script>
+<script type="text/javascript">
+    jQuery(".focusBox").slide({ mainCell:".pic",effect:"leftLoop", autoPlay:true, delayTime:300});
+</script>
 </body>
 </html>

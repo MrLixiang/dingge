@@ -21,6 +21,12 @@
     height: 570px;
     margin: 0 auto;
 }
+.menu-list .content{
+    display: none;
+}
+.menu-list .on{
+    display: block;
+}
 .pro-info{
     width: 1020px;
     margin: 40px auto 85px;

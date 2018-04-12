@@ -1,4 +1,3 @@
-
 $(function(){
     $("#searchBar").focus(function(){
         var account_value=$(this).val();

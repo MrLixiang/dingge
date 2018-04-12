@@ -70,38 +70,6 @@
 .product{
     margin: 0 auto 70px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .news{
     width: 1200px;
     margin: 30px auto 100px;
@@ -219,6 +187,49 @@
 .news li:hover .right span{
     background: url("../img/ba14.png");
     margin: 5px auto 3px;
+}
+.header .banner {
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    position: relative;
+}
+.header .banner .banner-list {
+    position: absolute;
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.header .banner .banner-list li {
+    width: 100%;
+    float: left;
+    height: auto;
+    overflow: hidden;
+}
+.header .banner .banner-list li img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.header .banner .pages {
+    text-align: center;
+    position: absolute;
+    bottom: 17px;
+    width: 100%;
+}
+.header .banner .pages span {
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    margin: 0 17px;
+    cursor: pointer;
+    background: #d2d2d2;
+}
+.header .banner .pages span.on {
+    background: #ff4e00;
 }
 
 

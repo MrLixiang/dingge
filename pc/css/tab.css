@@ -114,7 +114,7 @@
 
 .product .mod18 .listBox {
     height: 180px;
-    padding: 0 57px;
+    width: 1032px;
     margin: 55px auto 0;
     position: relative;
     overflow: hidden;
@@ -124,7 +124,6 @@
     margin: 0 auto;
     height: 180px;
     position: absolute;
-    padding-left: 12px;
     overflow: hidden;
     zoom: 1;
 }
@@ -162,7 +161,8 @@
     line-height: 34px;
     left: 0;
 }
-.product .mod18 .listBox ul li:hover a span{
+.product .mod18 .listBox ul li:hover a span,
+.product .mod18 .listBox li a .on{
     background: #c22f2f;
 }
 .product .mod18 .listBox li:first-child{
@@ -182,6 +182,7 @@
 .product .mod18 .listBox a img {
     border: 1px solid #da7f7f;
 }
-.product .mod18 .listBox ul li:hover a img {
+.product .mod18 .listBox ul li:hover a img,
+.product .mod18 .listBox a .on{
     border: 1px solid #c12b2b;
 }
